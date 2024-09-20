@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-image: url(./img-guitarra/header.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.guitarra{
+    background-image: url(./img-guitarra/header_guitarra.png);
+    background-repeat: no-repeat;
+    background-position-x: 1170px;
+    background-position-y: -609px;
+    background-size: 80vh 165vh;
+}
+.menu{
+    height: 15vh;
+}
+.info{
+    height: 70vh;
+}
+.logo{
+    height: 15vh;
+}
+.titulo{
+    font-size: 6rem;
+}
+.span{
+    font-size: 5rem;
+    color: orange;
+}
+
+.nav{
+    height: 100vh;
+}
+.nav-link{
+    color: #fff;
+}
+.btn{
+    width: 20rem;
+    border-radius: 0px;
+}
+.text-orange{
+    color: orange;
+}
+.coleccion{
+    height: 15vh;
+}
+.card{
+    --bs-card-border-width: 0px
+}
+.card-text{
+    text-align: justify;
+}
+.aprende{
+    background-image: url(./img-guitarra/cursos_bg.jpg);
+    height: 88vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog{
+    gap: 5rem;
+}
+.footer{
+    height: auto;
+}
+
+@media screen and (max-width:991px)  {
+    .caja{
+        background-color: rgba(128, 128, 128, 0.634) ;
+    
+    }
+}
+.b{
+    width: 100%;
+}
